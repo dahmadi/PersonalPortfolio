@@ -2,12 +2,16 @@ $primary-color: #ffd700;
 
 @import 'animate.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=La+Belle+Aurore&family=Roboto&display=swap');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'La Belle Aurore', sans-serif; /* Use 'La Belle Aurore' for the body */
 }
 
 input, textarea {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; /* Use 'Roboto' for input and textarea elements */
+}
+
+.some-other-element {
+  font-family: 'Arimo', sans-serif; /* Use 'Arimo' for other elements */
 }
