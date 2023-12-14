@@ -1,0 +1,35 @@
+.home-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: white;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Roboto';
+
+        &::before{
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+
+        }
+        .name { // This targets the "onya" span
+            display: inline-block; // This makes margin adjustments possible
+            margin-left: -21px; // Adjust this value to move "onya" to the left
+        }
+
+        img {
+            width: 100px; // Adjusted to fit the screen
+            margin-bottom: -33px; // Reduced space between the D logo and the text "onya"
+            margin-left: 2px;
+
+        }
+    }
+}
