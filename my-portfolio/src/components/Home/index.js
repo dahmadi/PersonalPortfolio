@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react'
 import LogoTitle from '../../assets/LogoD.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
@@ -8,6 +8,15 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['o', 'n', 'y', 'a'];
     const jobArray = ['s', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'e', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.'];
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLetterClass('text-animate-hover');
+        }, 4000);
+    
+        return () => clearTimeout(timer); // Correctly clears the timeout
+    }, []);
+    
 
     return (
         <div className="container home-page">
