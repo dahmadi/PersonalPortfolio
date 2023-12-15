@@ -18,18 +18,45 @@
         &::before{
             content: '<h1>';
             font-family: 'La Belle Aurore';
-
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
         }
+
+        &::after {
+            content: '<h1/>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6s;
+        }
+
+
         .name { // This targets the "onya" span
             display: inline-block; // This makes margin adjustments possible
             margin-left: -21px; // Adjust this value to move "onya" to the left
         }
 
         img {
-            width: 100px; // Adjusted to fit the screen
-            margin-bottom: -33px; // Reduced space between the D logo and the text "onya"
-            margin-left: 2px;
+            width: 100px; 
+            margin-bottom: -33px; 
+            margin-left: -6px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
 
         }
+    }
+
+    h2 {
+        font-family: 'Arimo';
     }
 }
