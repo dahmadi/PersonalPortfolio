@@ -39,10 +39,12 @@
         }
 
 
-        .name { // This targets the "onya" span
+        .name-container { // This targets the "onya" span
             display: inline-block; // This makes margin adjustments possible
-            margin-left: -21px; // Adjust this value to move "onya" to the left
+            margin-left: -20px; // Adjust this value to move "onya" to the left
         }
+
+        
 
         img {
             width: 100px; 
@@ -83,7 +85,5 @@
             background: #ffd700;
             color: #333;
         }
-
     }
-
 }
