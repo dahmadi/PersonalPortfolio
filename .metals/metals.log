@@ -3,3 +3,6 @@
 2023.12.13 20:49:28 WARN  no build tool detected in workspace '/Users/Donya/Desktop/PersonalPortfolio'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 Dec 14, 2023 12:02:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.12.14 20:09:26 INFO  Shutting down server
+2023.12.14 20:09:26 INFO  shutting down Metals
+2023.12.14 20:09:26 INFO  Exiting server

@@ -58,5 +58,32 @@
 
     h2 {
         font-family: 'Arimo';
+        color: #8d8d8d;
+        margin-top: 20px;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
     }
+
+    .flat-button {
+        font-family: 'Arimo';
+        color: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        text-decoration: none;
+        padding: 10px 10px;
+        border: 1px solid #ffd700;
+        margin-top: 20px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        text-align: center;
+
+        &:hover {
+            background: #ffd700;
+            color: #333;
+        }
+
+    }
+
 }
